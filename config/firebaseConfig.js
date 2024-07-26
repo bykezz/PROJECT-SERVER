@@ -1,5 +1,5 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyAXZ18rkXzhrOYHT2Pslv9YGupwgfukw6M",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "generated-sample-data.firebaseapp.com",
   projectId: "generated-sample-data",
   storageBucket: "generated-sample-data.appspot.com",
